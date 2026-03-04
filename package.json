@@ -1,0 +1,15 @@
+{
+  "name": "cipherschools-qa-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA Engineer Internship assignment with Playwright E2E, JMeter and k6 load tests",
+  "scripts": {
+    "e2e": "playwright test e2e/playwright_e2e_test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0"
+  }
+}
